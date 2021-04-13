@@ -1,0 +1,50 @@
+
+div.model{
+    display: flex;
+    flex-direction: row;
+    height: 360px;
+}
+
+div.model img{
+    width: 50vw;
+}
+div.model div.image{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0px;
+}
+div.model div.image img{
+    filter: brightness(0%) invert(100%) opacity(26%);
+    width: 50px;
+    height: 65px;
+}
+div.model div{
+    color: white;
+    background-color: #de8e85;
+    padding: 5vw 10vw 5vw 5vw;
+}
+div.model div label.title{
+    font-size: 21pt;
+    font-weight: bold;
+}
+div.model div label.text{
+    font-size: 12pt;
+    font-weight: bold;
+}
+div.model div label:first-child{
+    font-size: 19pt;
+    line-height: 80%;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+div.model div.post{
+    padding: 0px;
+}
+div.model div.post label.title{
+    color: white;
+    font-weight: bold;
+}
+div.model div.post label.text{
+    color: white;
+}

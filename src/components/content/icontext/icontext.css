@@ -1,0 +1,26 @@
+
+div#operation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 60px;
+    padding: 10px 0px;
+    padding-right: calc(20vw - 50px);
+}
+div#operation label{
+    cursor: pointer;
+}
+div#operation div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 0px 35px;
+    height: 42px;
+    border-radius: 3px;
+    margin-left: 3vw;
+    cursor: pointer;
+}
+div#operation div label{
+    margin-left: 10px;
+}

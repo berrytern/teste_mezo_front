@@ -1,0 +1,9 @@
+
+div.posts div.about{
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    height: 30px;
+    background-color: #de8e85;
+}

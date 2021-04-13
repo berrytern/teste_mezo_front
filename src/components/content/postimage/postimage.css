@@ -1,0 +1,26 @@
+
+div.post-extended{
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+div.post-extended div{
+    margin-bottom: 20px;
+}
+div.post-extended div.childrens{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    width: 30vw;
+}
+div.post-extended div.childrens div.post{
+    height: 100%;
+}
+div.post-extended div.childrens:first-child div{
+    margin-right: 10px;
+}
+div.post-extended div.childrens:last-child div{
+}
+div.post-extended img:last-child{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
